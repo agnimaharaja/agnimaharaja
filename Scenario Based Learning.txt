@@ -1,0 +1,32 @@
+Hope Artificial Intelligence
+Scenario Based Learning
+A company works with number of employees, all the works are dependents on the employees. Even if one of the employees resign the job immediately then assigned work will be not finished at the time, so delivery of the project to the clients will be delayed. Company planned to make solution for this, they want to know which employee may resign this month or next. If they know previously, they can arrange alternative to avoid such problem. As an Al Engineer you must give Solution to this.
+A) How will you achieve this in Al?
+
+  Scenario -1 As per Previous Data need to analysis, predict reason for Resigning & which month;& Solution can Give as a Number of Employees Possible to resign particular month & chances for the reason. It will be useful to reduce/take action for the reasons. 
+
+  Scenario -2 Need to analysis & predict Performance Evaluation Data for all the employees. Solution can give as those all are chances to resign.
+     
+B) Find out the 3-Stage of Problem Identification
+   
+   Scenario -1
+   Stage -1 Time Series Analysis(chosen for Date Prediction)
+   Stage -2 Supervised(i/p & o/p are provided)
+   Stage -3 Regression(Number Emp chances to resign)
+
+   Scenario -2
+   Stage -1 Natural Language processing (info text)
+   Stage -2 semi-Supervised (Resigned Emp data consider as Supervised & working emp data consider as unsupervised)
+   Stage -3 classification (Resign/to be continue)
+
+C) Name the project
+
+   Resign Prediction
+
+D) Create the dummy Dataset.
+
+    Scenario -1
+     s.no. | Emp.Name | Emp.Number | Annual Salary | Last Appraisal % | Date Of Joining | Date OF Resign | Reason 
+
+    Scenario -2
+     s.no. | Emp.Name | Emp.Number | Year | 1st Quarter Perf.  | 2nd Quarter Perf. | 3rd Quarter Perf. | 4th Quarter Perf. | Date of Joining | Date of Resign
